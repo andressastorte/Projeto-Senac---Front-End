@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="Imagens\senac logo.png" height="150px" alt="150px">
+        <h1>Feira de Tecnologia do Senac</h1>
+    </header>
+    <nav>
+        <a href="cadastro.html">Cadastro |</a>
+        <a href="preferencias.html">Preferências</a>
+    </nav>
+    <hr>
+    <h2>Preferências</h2>
+    <p>Preencha os campos com suas preferências:</p>
+    <main>
+        <fieldset>
+            <legend>
+                Preferências
+            </legend>
+            <form>
+                <label>Áreas de interesse:</label>
+                <br>
+                <label>
+                    <input type="radio" name="interesse">
+                    Programação
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="interesse">
+                    Ciência de dados
+                </label>
+                <br>
+                <label>
+                    <input type="radio" name="interesse">
+                    Análise de dados
+                </label>
+                <br>
+                <br>
+                <label>Nível de conhecimento:</label>
+                <br>
+                <select>
+                    <option>Básico</option>
+                    <option>Intermediário</option>
+                    <option>Avançado</option>
+                </select>
+                <br>
+                <br>
+                <label>Nota de interesse pelo evento (de 0 a 10)</label>
+                <br>
+                <input type="range" min="0 max=10" id="Teste">
+                <br>
+                <br>
+                <label>Observações</label>
+                <br>
+                <textarea rows="5" placeholder="Comente aqui suas observaçôes"></textarea>
+                <br>
+                <label>
+                    <input type="checkbox">
+                    Aceito os termos acima
+                </label>
+                <br>
+                <br>
+                <input type="reset" value="Preencher nvoamente">
+                <br>
+                <input type="submit" value="Enviar">
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+        <p>Senac Minas<br>Av. Belo Horizonte, 525. Uberlândia-MG<br>Telefone: 0800 724 4440</p>
+    </footer>
+</body>
+</html>
