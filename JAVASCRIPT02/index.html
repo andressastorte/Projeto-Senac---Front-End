@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="IMAGENS\logo.png">
+        <nav>
+            <a href="index.html">Ínicio</a>
+            <a href="catalogo.html">Catálogo e Cálculo de compra</a>
+            <a href="atendimento.html">Atendimento ao cliente</a>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <p class="t1">Bem-vindo à</p>
+            <h1 class="t2">PIXEL STORE</h1>
+            <p class="t3">Sua loja completa de tecnologia e jogos. Os melhores <br>produtos para elevar sua experiência ao próximo nível</p>
+            <a href="catalogo.html">
+                <button class="t4">VER CATÁLAGOS</button>
+            </a>
+            
+        </section>
+        <section class="card">
+            <h2>Destaques da Semana</h2>
+            <div class="card1" id="card11">
+                <img src="IMAGENS\mouse.png">
+                <h3>Mouse Gamer</h3>
+                <p>Mouse desenvolvido para quem busca precisão, velocidade e conforto durante as partidas. Possui design ergonômico, iluminação RGB personalizável</p>
+                <p class="preco" id="preco1">R$ 120,00</p>
+                <a href="#">
+                    <button class="produto" id="botao1">Ver Produto</button>
+                </a>
+            </div>
+            <div class="card1" id="card12">
+                <img src="IMAGENS\teclado.png">
+                <h3>Teclado Mecânico</h3>
+                <p>O Teclado Mecânico RGB combina desempenho, conforto e estilo para deixar suas partidas ainda melhores. Suas teclas mecânicas oferecem respostas rápidas e precisas</p>
+                <p class="preco" id="preco2">R$ 180,00</p>
+                <a href="#">
+                    <button class="produto" id="botao2">Ver Produto</button>
+                </a>
+            </div>
+            <div class="card1" id="card13">
+                <img src="IMAGENS\headset.png">
+                <h3>HeadSet Gamer</h3>
+                <p>. O headset conta com almofadas confortáveis, microfone integrado e iluminação RGB, sendo ideal tanto para jogos quanto para chamadas e comunicação com outros jogadores.</p>
+                <p class="preco" id="preco3">R$ 150,00</p>
+                <a href="#">
+                    <button class="produto" id="botao3">Ver Produto</button>
+                </a>
+            </div>
+        </section>
+        <section class="saudacao">
+            <div class="saudacao1">            
+                <h1>Bem-vindo à Pixel Store</h1>
+                <label>Digite seu nome</label>
+                <input id="nome">
+                <button id="entrar" onclick="entrar()">Entrar na loja</button>
+            </div>
+            <div class="saudacao1">
+                <h1>Ativar Promoção</h1>
+                <p>Clique no botão e veja mágica acontecer</p>
+                <button onclick="mudar()" class="mudar1" id="promo">PROMOÇÂO</button>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <section>
+
+    </main>
+    <hr>
+    <footer>
+        <div class="rodape">
+            <p>Horário de funcionamento: 8hrs às 18hrs<br>Telefone: (34)99999-9999<br>Email:viajemais@gmail.com<br>Endereço: Av. Brasil, 123. Uberlândia-MG</p>
+        </div>
+        <img src="Imagens\logo.png" height="120px">
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

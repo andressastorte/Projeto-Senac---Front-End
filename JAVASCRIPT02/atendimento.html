@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="IMAGENS\logo.png">
+        <nav>
+            <a href="index.html">Ínicio</a>
+            <a href="catalogo.html">Catálogo e Cálculo de compra</a>
+            <a href="atendimento.html">Atendimento ao cliente</a>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <h2 class="nossosprodutos">ATENDIMENTO AO CLIENTE</h2>
+        <p class="ajuda"> Precisa de ajuda? Preencha o formuláro abaixo e nossa equipe entrará em contato</p>
+        <section class="form">
+            <fieldset id="form">
+                
+                <form>
+                    <label class="f1" id="label1">Nome completo</label>
+                    <input type="text"  placeholder="Digite seu nome completo" class="nome" id="nome1">
+                    <br>
+                    <label class="f1" id="label2">Email</label>
+                    <input type="email"  placeholder="Digite seu email" class="nome" id="email1">
+                    <br>
+                    <label class="f1" id="label3">Idade</label>
+                    <input type="number"  placeholder="Digite sua idade" class="nome" id="idade1">
+                    <br>
+                    <label class="f1" id="label4">Assunto</label>
+                    <select class="nome">
+                        <option>Dúvida sobre o produto</option>
+                        <option>Problema com compra</option>
+                        <option>Outros</option>
+                    </select>
+                    <br>
+                    <label class="f1" id="label5">Mensagem</label>
+                    <textarea row="6" cols="30" class="nome" placeholder="Digite sua mensagem aqui"></textarea>
+                    <br>
+                    <button onclick="enviar()" class="enviar" id="botao" type="button">Enviar mensagem</button>
+                    <button onclick="alterar()" class="alterar" id="botao1" type="button">Destacar atendimento</button>
+                    <p id="mensagem"></p>
+                    <p id="mensagem1"></p>
+                    
+                    
+                </form>
+            </fieldset>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <div class="rodape">
+            <p>Horário de funcionamento: 8hrs às 18hrs<br>Telefone: (34)99999-9999<br>Email:viajemais@gmail.com<br>Endereço: Av. Brasil, 123. Uberlândia-MG</p>
+        </div>
+        <img src="Imagens\logo.png" height="120px">
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

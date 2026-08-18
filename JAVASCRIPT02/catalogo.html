@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="IMAGENS\logo.png">
+        <nav>
+            <a href="index.html">Ínicio</a>
+            <a href="catalogo.html">Catálogo e Cálculo de compra</a>
+            <a href="atendimento.html">Atendimento ao cliente</a>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <h2 class="nossosprodutos">NOSSOS PRODUTOS</h2>
+        <br>
+        <section class="card2">
+            <div class="card21">
+                <img src="IMAGENS\mouse.png">
+                <h3>Mouse Gamer</h3>
+                <p>O Mouse Gamer foi desenvolvido para oferecer precisão, velocidade e conforto durante as partidas. </p>
+                <p class="preco" id="preco1">R$ 120,00</p>
+                <a href="#">
+                    <button class="produto" id="botao1">Ver Produto</button>
+                </a>
+            </div>
+            <div class="card21">
+                <img src="IMAGENS\teclado.png">
+                <h3>Teclado Mecânico</h3>
+                <p>O Teclado Mecânico combina desempenho, resistência e estilo. Suas teclas mecânicas oferecem uma resposta rápida e precisa</p>
+                <p class="preco" id="preco1">R$ 120,00</p>
+                <a href="#">
+                    <button class="produto" id="botao1">Ver Produto</button>
+                </a>
+            </div>
+            <div class="card21">
+                <img src="IMAGENS\headset.png">
+                <h3>Headset</h3>
+                <p>O Headset Gamer possui um design moderno, proporcionando uma experiência de áudio imersiva para jogos, filmes e músicas</p>
+                <p class="preco" id="preco1">R$ 120,00</p>
+                <a href="#">
+                    <button class="produto" id="botao1">Ver Produto</button>
+                </a>
+            </div>
+            <div class="card21">
+                <img src="IMAGENS\controle.png">
+                <h3>Controle  Gamer</h3>
+                <p>O Controle Gamer oferece conforto, precisão e liberdade para jogar seus títulos favoritos. Seu formato ergonômico facilita o manuseio durante longas partidas</p>
+                <p class="preco" id="preco1">R$ 120,00</p>
+                <a href="#">
+                    <button class="produto" id="botao1">Ver Produto</button>
+                </a>
+            </div>
+        </section>
+
+        <section class="compra">
+            <h2 class="nossosprodutos">SIMULAR COMPRA</h2>
+            <div class="compra1">
+                <label class="escolhaproduto">Escolha o produto</label>
+                <br>
+                <select class="selecao" id="prod">
+                    <option>Mouse Gamer - R$ 120,00</option>
+                    <option>Teclado Mecânico - R$ 180,00</option>
+                    <option>Headset - R$ 150,00</option>
+                    <option>Controle - R$ 220,00</option>
+                </select>
+            </div>
+            <div class="compra2">
+                <Label class="escolhaproduto">Quantidade</Label>
+                <br>
+                <input type="number" class="selecao" id="quant">
+            </div>
+            <div>
+                <button onclick="calcularcompra()" class="calcular">Calcular total</button>
+            </div>
+            <div class="resultado1">
+                <p class="result" id="resultado">O valor total é R$ </p>
+                <p class="descont" id="desconto">(Compras acima de R$ 500,00 tem desconto de 10%)</p>
+                <p class="result" id="frete">O valor do frete é:</p>
+            </div>
+        </section>
+        <br>
+    </main>
+    <hr>
+    <footer>
+        <div class="rodape">
+            <p>Horário de funcionamento: 8hrs às 18hrs<br>Telefone: (34)99999-9999<br>Email:viajemais@gmail.com<br>Endereço: Av. Brasil, 123. Uberlândia-MG</p>
+        </div>
+        <img src="Imagens\logo.png" height="120px">
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
