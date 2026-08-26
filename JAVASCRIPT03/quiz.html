@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Aurora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Imagens\logo.png">
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="classificacao.html">Classificação</a>
+            <a href="avaliacao.html">Avaliação</a>
+            <a href="quiz.html">Quiz de Cinema</a>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <br>
+        <label>Digite seu nome</label>
+        <input id="festa">
+        <button onclick="adicionar()">Adicionar</button>
+        <br>
+        <label>Qual posiçao</label>
+        <button onclick="mostrar()">Mostrar convidados</button>
+        <input id="pos">
+        <br>
+        <label>Digite quem encontrar</label>
+        <input id="find">
+        <button onclick="encontrar()">encontrar</button>
+        <br>
+        <label>Quem quer remover</label>
+        <input id="remove">
+        <button onclick="remover()">remover</button>
+        <p id="local"></p>
+    </main>
+    <footer>
+        <section class="rodape">
+            <div>
+                <img src="Imagens\logo.png">
+            </div>
+            <div>
+                <h4>Endereço</h4>
+                <p>Rua do Oscar, 100. Uberlândia-MG</p>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <p>(11) 99999-9999<br>@auroracinema<br>contato@auroracinema.com.br</p>
+            </div>
+            <div>
+                <h4>Horário de funcionamento</h4>
+                <p>Segnda à Domingo<br>13h às 00h</p>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>

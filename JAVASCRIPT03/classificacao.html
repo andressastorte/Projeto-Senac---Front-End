@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cinema Aurora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="Imagens\logo.png">
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="classificacao.html">Classificação</a>
+            <a href="avaliacao.html">Avaliação</a>
+            <a href="quiz.html">Quiz de Cinema</a>
+        </nav>
+    </header>
+    <main>
+        <section class="verificacao">
+            <h1>Posso assistir</h1>
+            <p>Informe sua idade e escolha um filme para verificar a classificação indicativa</p>
+        </section>
+        <section class="idade">
+            <div class="possover">
+                <label>Sua idade</label>
+                <input type="number" id="idade">
+                <label>Escolha o filme</label>
+                <select id="filme">
+                    <option value="12">A lenda de Aruana</option>
+                    <option value="18">Entre Cortinas</option>
+                    <option value="0">Férias em Caos</option>
+                    <option value="14">Horizonte Futuro</option>
+                </select>
+                <button onclick="verificar()">Verificar</button>
+            </div>
+        </section>
+        <section class="resultado">
+            <p id="verificacao"></p>
+        </section>
+
+    </main>
+        
+
+    <footer>
+        <section class="rodape">
+            <div>
+                <img src="Imagens\logo.png">
+            </div>
+            <div>
+                <h4>Endereço</h4>
+                <p>Rua do Oscar, 100. Uberlândia-MG</p>
+            </div>
+            <div>
+                <h4>Contato</h4>
+                <p>(11) 99999-9999<br>@auroracinema<br>contato@auroracinema.com.br</p>
+            </div>
+            <div>
+                <h4>Horário de funcionamento</h4>
+                <p>Segnda à Domingo<br>13h às 00h</p>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
